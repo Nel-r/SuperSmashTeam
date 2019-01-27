@@ -1,0 +1,18 @@
+.header {
+  height: 64px;
+  width: 100%;
+  background: turquoise;
+  position: relative;
+
+  &:after {
+    // content: "";
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 64px;
+    transform: rotate(-3deg);
+    top: 0.5em;
+    z-index: 1;
+    background: red;
+  }
+}

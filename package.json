@@ -1,0 +1,23 @@
+{
+  "name": "super-smash-team",
+  "version": "1.0.0",
+  "description": "Interactive way to see team memembers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass scss/style.scss public/stylesheets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nel-r/SuperSmashTeam.git"
+  },
+  "author": "Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nel-r/SuperSmashTeam/issues"
+  },
+  "homepage": "https://github.com/Nel-r/SuperSmashTeam#readme",
+  "dependencies": {
+    "sass": "^1.16.1"
+  }
+}

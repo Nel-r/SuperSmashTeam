@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #232121;
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+p, li, ul {
+  font-size: 1.6rem;
+}
+
+.header {
+  height: 64px;
+  width: 100%;
+  background: turquoise;
+  position: relative;
+}
+.header:after {
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 64px;
+  transform: rotate(-3deg);
+  top: 0.5em;
+  z-index: 1;
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
